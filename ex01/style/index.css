@@ -1,0 +1,47 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    top:50;
+    bottom: 0;
+    left: 110;
+    right: 0;
+    margin: auto;
+    
+  }
+
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .card {
+    transition: 0.3s;
+    width: 75%;
+    text-align: justify;
+  }
+  
+  .container {
+    padding: 0px 12px;
+  }
+
+  img{
+      width: 300px;
+      height: 250px;
+  }
+
+
+  .title{
+    font-size: medium;
+      color: lightskyblue;
+  }
+
+  p {
+      font-size: medium;
+      width: 80%;
+  }
